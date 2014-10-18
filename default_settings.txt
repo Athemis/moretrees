@@ -7,12 +7,12 @@ moretrees.enable_oak			= true
 moretrees.enable_sequoia		= true
 moretrees.enable_palm			= true
 moretrees.enable_pine			= true
-moretrees.enable_rubber_tree	= true
+moretrees.enable_rubber_tree		= true
 moretrees.enable_willow			= true
 moretrees.enable_acacia			= true
 moretrees.enable_birch			= true
 moretrees.enable_spruce			= true
-moretrees.enable_jungle_tree	= true
+moretrees.enable_jungle_tree		= false
 moretrees.enable_fir			= true
 moretrees.enable_beech			= false
 
@@ -42,11 +42,11 @@ moretrees.enable_leafdecay		= true
 -- you enable this, otherwise you'll have two sets of leaf decay code running
 -- at the same time, which will just waste CPU for no benefit.
 
-moretrees.enable_default_leafdecay	= true
+moretrees.enable_default_leafdecay	= false
 
 -- Enable this one for default *jungle* leaves
 
-moretrees.enable_default_jungle_leafdecay	= true
+moretrees.enable_default_jungle_leafdecay	= false
 
 -- Enable this if you want moretrees to redefine default apples so that they
 -- fall when leaves decay/are dug.
@@ -72,7 +72,7 @@ moretrees.default_leafdecay_radius	= 4
 -- Change these settings if you want default trees to be gradually cut down
 -- above the elevation where firs normally generate.
 
-moretrees.firs_remove_default_trees	= false
+moretrees.firs_remove_default_trees	= true
 moretrees.firs_remove_interval		= 2
 moretrees.firs_remove_chance		= 150
 
